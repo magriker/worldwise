@@ -1,3 +1,11 @@
+import { PageNav } from "../components/PageNav";
+
 export function Pricing() {
-  return <h1>Pricing</h1>;
+  return (
+    <div>
+      <PageNav></PageNav>
+      <h1>Pricing</h1>
+      {/* <Link to="/Pricing">Pricing</Link> */}
+    </div>
+  );
 }
